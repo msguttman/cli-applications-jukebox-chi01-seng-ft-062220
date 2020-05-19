@@ -60,7 +60,7 @@ def play(songs)
   elsif play_checker_result != ""
     puts "Playing #{play_checker_result}"
   else
-    puts "Not found"
+    puts "Invalid input, please try again"
   end
 end
 
