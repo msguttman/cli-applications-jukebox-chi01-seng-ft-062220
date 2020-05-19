@@ -57,13 +57,10 @@ def play(songs)
   if user_input.to_i.to_s == user_input && user_input.to_i <= songs.length - 1
     num = user_input.to_i - 1
     puts "Playing #{songs[num]}"
-    run(songs)
   elsif play_checker_result != ""
     puts "Playing #{play_checker_result}"
-    run(songs)
   else
     puts "Not found"
-    run(songs)
   end
 end
 
